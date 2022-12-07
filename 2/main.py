@@ -12,7 +12,7 @@ def exit(code: int):
     sys.exit(code)
 
 
-# Setting up some vars
+# Getting the width of the terminal
 terminal_width = os.get_terminal_size()[0]
 
 
