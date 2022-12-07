@@ -1,3 +1,6 @@
+# This simple script will calculate what the length of the fence around a flower bed and how many flowers you need 
+
+
 import math
 import sys
 
