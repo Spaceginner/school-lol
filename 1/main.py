@@ -1,4 +1,4 @@
-# This simple script will calculate what the length of the fence around a flower bed and how many flowers you need
+# This simple script will calculate what the length of the fence around a flower bed and how many flowers do you need
 
 
 import math
