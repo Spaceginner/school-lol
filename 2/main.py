@@ -26,13 +26,13 @@ else:
 
     exit(-1)
 
-    
 
 name = input("Ваше ім'я (у родовому відмінку)\n>>> ")
 surname = input("Ваше прізвище (у родовому відмінку)\n>>> ")
 school = input("Назва вашої школи (у родовому відмінку)\n>>> ")
 grade = input("Ваш клас\n>>> ")
 subject = input("Шкільний предмет у родовому відмінку)\n>>> ")
+
 
 # Outputing how the user should label his notebook
 print('\n\n')
@@ -42,5 +42,6 @@ print(f'{"учня" if is_male else "учениці"} {grade} класу'.center
 print(f"{school}".center(terminal_width, ' '))
 print(f"{surname} {name}".center(terminal_width, ' '))
 print('\n\n')
+
 
 exit(0)
